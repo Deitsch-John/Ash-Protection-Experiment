@@ -11,10 +11,10 @@ library(leafpop)
 library(leaflet.extras)
 library(scales)
 
-setwd("C:/Users/jfdei/OneDrive/Desktop/Work/Hubbard Brook 2022/APE")
-APE <- read_csv("APE.csv")
-trees <- read_csv("treeLog.csv")
-setwd("C:/Users/jfdei/OneDrive/Desktop/qGIS/shapefile.library")
+# setwd("C:/Users/jfdei/OneDrive/Desktop/Work/Hubbard Brook 2022/APE")
+APE <- read_csv("https://raw.githubusercontent.com/Deitsch-John/Ash-Protection-Experiment/main/APE.csv")
+trees <- read_csv("https://raw.githubusercontent.com/Deitsch-John/Ash-Protection-Experiment/main/treeLog.csv")
+# setwd("C:/Users/jfdei/OneDrive/Desktop/qGIS/shapefile.library")
 
 obs_to_coords <- function(df, coord_col, crs_add){
   coords.sfg <- df$coords
@@ -28,6 +28,10 @@ obs_to_coords <- function(df, coord_col, crs_add){
 
 #load HB shape-files 
 # using CRS EPSG:26919
+url = "https://github.com/Deitsch-John/Ash-Protection-Experiment/raw/main/spatial.zip.zip"
+download.file(url, "spatial.zip.zip")
+unzip("spatial.zip.zip")
+
 hbef.boundary = read_sf(layer = "hbef_boundary", dsn = ".")
 hbef.roads = read_sf(layer = "hbef_roads", dsn = ".")
 hbef.streams = read_sf(layer = "hbef_streams", dsn = ".")
@@ -60,14 +64,14 @@ APE_cleaned <- APE2 %>%
 APE_sf <- obs_to_coords(APE_cleaned, coords, 4269)
 APE_sf <- st_transform(APE_sf, 26919)
 
-rawdata <- read_sheet("https://docs.google.com/spreadsheets/d/13YHy2xUOoZYtnc05kCjSthoFdoqDUFWkB_ANJnfYwV0/edit#gid=0",
-                   col_types = "nnDnnnncin")
+# rawdata <- read_sheet("https://docs.google.com/spreadsheets/d/13YHy2xUOoZYtnc05kCjSthoFdoqDUFWkB_ANJnfYwV0/edit#gid=0",
+#                    col_types = "nnDnnnncin")
+# 
+# rawdata2 <- rawdata[2:304,]
 
-rawdata2 <- rawdata[2:304,]
-
-TreeLog <- rawdata2 %>%
+TreeLog <- trees %>%
   dplyr::select(`Tree Number`, `Plot Number`, `DBH (inches)`, `Canopy class`, `Canopy Health`, `DBH (cm)`)%>%
-  filter(`Canopy Health` != "NULL")%>%
+  # filter(`Canopy Health` != "NULL")%>%
   mutate(Canopy_Healthx = unlist(`Canopy Health`))%>%
   mutate(Canopy_Health = case_when(
     Canopy_Healthx==1~"Healthy",
@@ -88,7 +92,7 @@ PlotsList <- TreeLog %>%
   pull()
 
 PlotStats <- trees %>%
-  group_by(`Plot No`)%>%
+  group_by(`Plot Number`)%>%
   summarise(Trees = n(),
             `Max DBH` = max(`DBH (inches)`),
             `Min DBH` = min(`DBH (inches)`),
@@ -98,7 +102,7 @@ PlotStats <- trees %>%
             Liters = sum(`mL solution`)/1000)
 
 plots.leaf <- st_transform(APE_sf, 4326)%>%
-  rename('Plot No' = Number)
+  rename('Plot Number' = Number)
 
 TreeTable <- function(plot){
   TreeLog %>%
@@ -294,7 +298,7 @@ Large_map_lf <- function(df){
   streams.leaf <- streams.leafx[boundary.leaf,]
   
   popT <- df %>%
-    left_join(PlotStats, by = "Plot No")%>%
+    left_join(PlotStats, by = "Plot Number")%>%
     select(Trees.y, `Plot No`, Treatment, `Max DBH`, 
            `Min DBH`, `Mean DBH`)%>%
     rename(`Number of Trees` = Trees.y)%>%
