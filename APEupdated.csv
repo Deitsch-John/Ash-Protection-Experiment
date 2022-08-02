@@ -1,0 +1,70 @@
+numero de parcela,tratamiento,latitud ,longitud ,,,elevacion (metros),numero de arboles en la parcela,numero de arboles a tratar,diametro del arbol mas grande,,,notas,,,,,,,,,,,,,
+Plot Number,Treatment,Latitude,Longitude,UTM.easting,UTM.northing,Elevation (meters),Number of ash in plot,Number of ash to be treated,DBH of largest ash (cm),Basal area ash,Basal area total,Notes,Predominant soil,Bh,Bhs,Bimodal,E,Aquept,Bedrock Histosol,Typical,Wetland Histosol,Basal area ash,Basal area total,Slope,Aspect
+2,Treated,43.932858,-71.77307898,277417,4868154,538,5,6,54,18,35,"in sight of rd pair for APZZ1; sapsucker holes in one tree, no blonding",Typical,0,0,1,0,0,0,15,0,18,35,24,45
+3,Treated,43.93417203,-71.75643898,278757.5,4868255,495,4,6,67,15,38,"n-facing grp; sapsucker holes in one tree, no blonding",Bh,12,0,4,0,0,0,0,0,15,38,21,358
+6,Treated,43.933664,-71.75243,279077.4,4868188,485,5,7,53,15,38,near N of VW96; ,Bh,16,0,0,0,0,0,0,0,15,38,18,12
+8,Treated,43.93709429,-71.74745975,279489,4868556,502,8,13,51,,,"""other"" = TSCA; near road; ",Bh,16,0,0,0,0,0,0,0,,,,
+10,Treated,43.93688259,-71.74578047,279623,4868528,492,7,11,45,,,boulder field; ,mixed,2,2,3,0,0,0,9,0,,,,
+12,Treated,43.93623197,-71.74516398,279670,4868454,471,10,13,47,25,45,near APB6; no blondiing,Bh,15,0,0,0,0,0,1,0,25,45,11,170
+14,Treated,43.93623953,-71.74481643,279698,4868454,472,9,11,61,,,streamlet through plot; rattlesnake plantain in plot; ,Bh,12,0,4,0,0,0,0,0,,,,
+15,Treated,43.93615468,-71.74460073,279715,4868444,471,10,11,47,,,"was slotted to be control, switched to treatment by JFD and MJC to offset plot 13 switching to control",mixed,10,0,0,0,0,0,6,0,,,,
+16,Treated,43.93687801,-71.74409828,279758,4868523,487,5,5,75,,,; ,Typical,3,0,0,0,0,0,13,0,,,,
+18,Treated,43.93562,-71.74341903,279808,4868381,470,4,5,52,10,40,orcs 595-597 in; no blondiing,Typical,0,0,0,0,0,0,16,0,10,40,8,192
+20,Treated,43.93715036,-71.74175603,279947,4868547,501,8,8,62,,,"birder low grid K19.5; wet; ""other"" = PIRU; ",Bh,13,0,1,0,0,0,2,0,,,,
+33,Treated,43.93819903,-71.73503503,280490,4868646,518,7,14,55,25,35,S of VW300 on VW line; ,mixed,0,12,0,0,0,0,4,0,25,35,26,136
+37,Treated,43.93808001,-71.73298499,280654,4868627,508,4,10,69,18,40,GPS ORC680; ,unknown,,,,,,,,,18,40,19,78
+41,Treated,43.94315,-71.72929,280970,4869180,504,5,6,57,10,38,other = TSCA; FRAM 820 measured; orchids 995 and 279 in plot area; pileated holes; no blonding,unknown,,,,,,,,,10,38,19,130
+42,Treated,43.9428,-71.72737,281122,4869136,477,4,9,49,15,28,"FRAM 352 measured; gap in plot; no blondiing; was slotted to be control, switched to treatment by JFD and MJC to offset plot 36 switching to control",unknown,,,,,,,,,15,28,14,115
+43,Treated,43.94740596,-71.72551797,281288,4869643,420,8,12,53,25,43,Swift 2108; ,Typical,2,0,0,0,0,0,14,0,25,43,26,157
+45,Treated,43.94662703,-71.72524597,281307,4869556,402,6,8,37,18,33,Swift 2107; PRSE crown in plot; steep bank of Bear Brook on SW edge; no blondiing,mixed,10,0,1,0,0,0,5,0,18,33,20,157
+46,Treated,43.94849704,-71.72127698,281632,4869753,415,8,15,53,30,53,NW of IL2 (HBNO); ,mixed,6,4,2,0,0,0,4,0,30,53,26,146
+48,Treated,43.94720448,-71.71775701,281910,4869600,,4,7,53,13,40,VW334 C90W; ,unknown,,,,,,,,,13,40,25,226
+49,Treated,43.94480598,-71.71555599,282078,4869328,340,5,10,53,10,40,VW336 C90E; ,mixed,7,5,0,0,0,0,4,0,10,40,25,184
+53,Treated,43.94710296,-71.70894401,282617,4869565,337,5,8,69,18,30,128mN of ASH7; ,Typical,0,2,0,0,0,0,14,0,18,30,42,120
+54,Treated,43.94654104,-71.70878199,282628,4869503,332,4,6,38,8,28,"other = 3 ACRU, 1 BEPA; 2 dead standing FRAM in plot; muddy low spot; better plots nearby; blonding on nearby ash, but not in plot",Typical,2,0,0,0,0,0,13,1,8,28,16,151
+55,Treated,43.94816796,-71.70834403,282669,4869682,347,5,9,64,13,28,112mN of ASH6; ,mixed,7,0,3,0,0,0,6,0,13,28,40,109
+56,Treated,43.94786242,-71.70825403,282675,4869648,340,9,11,49,,,H15; ,mixed,8,0,0,0,0,0,8,0,,,,
+58,Treated,43.94717303,-71.70785101,282705,4869570,324,11,14,45,18,30,other = ACRU; Swift 2101; no blondiing,Bh,13,0,0,0,0,0,1,2,18,30,3,168
+59,Treated,43.94822439,-71.70779694,282713,4869687,339,7,7,66,,,I16; ,mixed,7,0,3,0,0,0,6,0,,,,
+60,Treated,43.951151,-71.70773501,282729,4870012,396,8,12,60,20,38,147mW of ASH3; ,Typical,0,4,0,0,0,0,12,0,20,38,4,151
+62,Treated,43.95021399,-71.70731398,282759,4869907,367,9,12,35,10,28,110mN of ASH4; ,mixed,6,7,0,0,0,0,3,0,10,28,29,100
+64,Treated,43.94665402,-71.70684803,282783,4869510,305,11,15,36,28,40,other - ACRU; 3 dead standing FRAM in plot; rocky; no blondiing,Typical,2,0,0,0,0,0,14,0,28,40,36,177
+66,Treated,43.94395676,-71.70628225,282819,4869209,289,4,4,60,,,I6; ,Bh,13,0,0,0,0,0,3,0,,,,
+68,Treated,43.94405496,-71.70517771,282908,4869217,276,12,12,31,,,J5; ,Bh,8,6,0,1,1,0,0,0,,,,
+51,Treated,43.95109199,-71.71028604,282523.7,4870012,407,7,9,NA,13,28,"VW342 C70E; was slotted to be treatment plot, MJC decided to switch to control plot based on health of trees during scouting Jul 2022",Typical,0,0,0,0,0,0,16,0,13,28,14,92
+1,Control,43.93401646,-71.77569839,277211,4868290,562,4,4,47,13,38,"one dead FRAM also in plot, within sight of Rd, drainage; ",unknown,,,,,,,,,13,38,14,5
+4,Control,43.933577,-71.75560397,278822,4868187,506,4,5,94,10,48,n-facing grp; no blondiing,Bh,16,0,0,0,0,0,0,0,10,48,23,352
+5,Control,43.93234704,-71.75356901,278981,4868045,525,4,5,42,15,45,near VW96; ,mixed,5,0,2,0,0,0,9,0,15,45,21,21
+7,Control,43.93722698,-71.74724797,279506.5,4868570,497,6,9,45,23,50,near APB9; orc 874; one tree with blonding patch,Bh,13,0,1,0,0,0,2,0,23,50,22,170
+9,Control,43.93684996,-71.74606897,279600,4868525,489,6,7,66,15,43,ORC 648 in plot; no blondiing,mixed,9,0,0,0,0,0,7,0,15,43,11,220
+11,Control,43.9365846,-71.74544281,279649,4868494,480,11,12,46,,,; ,Bh,13,0,0,0,0,0,3,0,,,,
+13,Control,43.93581798,-71.74468998,279706.6,4868407,464,7,9,61,,,"was slotted to be treatment plot, JFD and MJC decided to switch to control plot based on health of trees during scouting Jul 2022",Typical,1,0,0,0,0,0,15,0,,,,
+17,Control,43.93653397,-71.74399302,279765.2,4868485,488,4,8,77,15,30,near APB12; one tree with blonding patch,Typical,5,0,0,0,0,0,11,0,15,30,35,214
+19,Control,43.93734502,-71.74339714,279816,4868573,505,5,5,99,,,; ,Typical,0,0,0,0,0,0,16,0,,,,
+21,Control,43.94025015,-71.73676514,280359,4868878,546,6,6,57,,,A21; ,Bh,12,0,0,0,0,0,4,0,,,,
+22,Control,43.94856099,-71.73633297,280424,4869800,542,4,6,47,15,38,near B2.5; drainage through plot; 1 dead FRAM in plot; one tree with blonding patch,Bh,13,0,0,0,0,0,3,0,15,38,23,82
+23,Control,43.94721704,-71.73612099,280436,4869650,557,5,6,86,15,38,Swift 2111; drainage through plot; downslope of Liz's plot to get 4 FRAM; no blondiing,Typical,5,0,0,0,0,0,11,0,15,38,31,47
+24,Control,43.93945537,-71.73611814,280408,4868788,536,8,10,59,,,EZ23; ,Bh,8,8,0,0,0,0,0,0,,,,
+25,Control,43.94653962,-71.73579534,280460,4869574,560,4,5,80,,,A7.5; 2 ash in plot are unhealthy already; ,mixed,10,0,0,0,0,0,6,0,,,,
+26,Control,43.94743265,-71.73572418,280469,4869673,548,7,8,52,,,A6; measured ash has tag 743 at base; ,Bh,14,0,0,0,0,0,2,0,,,,
+27,Control,43.93902699,-71.73565001,280444,4868739,530,10,15,58,38,63,S edge birder mid grid; two trees with blonding,Bh,4,12,0,0,0,0,0,0,38,63,15,99
+28,Control,43.94812999,-71.735634,280479,4869750,536,4,5,61,13,33,near A4; measured FRAM tag# 12746 of BB-low baskets; no blondiing,Typical,5,0,0,0,0,0,11,0,13,33,23,53
+29,Control,43.94968664,-71.73559086,280488,4869923,545,7,9,48,,,A2; pileated holes; no blonding,Typical,0,0,0,0,0,0,16,0,,,,
+30,Control,43.94810412,-71.73550577,280489,4869747,535,4,4,56,,,A4; no blondiing,mixed,8,0,1,0,0,0,7,0,,,,
+31,Control,43.94907204,-71.73548598,280494,4869854,529,7,10,48,23,38,"other = 1 ACRU, 1 BEPA; near A2; S edge of plot on Bear Brook; ",mixed,0,0,6,0,0,0,10,0,23,38,33,148
+32,Control,43.93963002,-71.7352166,280481,4868805,524,7,10,66,,,EX22; wonderful large tree; ,Typical,0,2,0,0,0,0,14,0,,,,
+34,Control,43.93976804,-71.73488198,280508,4868819,521,7,14,64,28,43,S of birder antenna; pileated holes; no blonding,Typical,0,0,0,0,0,0,16,0,28,43,11,73
+35,Control,43.93923403,-71.73422299,280559,4868758,510,12,21,52,43,63,115mE of ASH12; no blondiing,mixed,0,8,0,0,0,0,8,0,43,63,5,62
+36,Control,43.93705096,-71.73314299,280638,4868513,483,5,13,60,23,48,"GPS ORC682; was slotted to be treatment plot, JFD and MJC decided to switch to control plot based on health of trees during scouting Jul 2022",unknown,,,,,,,,,23,48,20,82
+38,Control,43.93943704,-71.73277703,280676,4868777,482,5,6,64,13,53,149mS of ASH11; two trees with possible blonding,Bh,12,3,0,0,1,0,0,0,13,53,7,131
+39,Control,43.94431024,-71.73189251,280765,4869316,513,9,15,37,,,EU11.5; in sight of rd; ,Bh,16,0,0,0,0,0,0,0,,,,
+40,Control,43.94570838,-71.73178214,280779,4869471,509,4,6,59,,,"ET9; ""other"" = ACRU; measured ash is double stem; ",Bh,1,12,0,0,0,0,3,0,,,,
+44,Control,43.94691001,-71.72543599,281293,4869588,414,4,9,56,10,23,other = PRSE; no blondiing,Typical,2,0,0,0,0,0,14,0,10,23,28,164
+47,Control,43.94773001,-71.72018498,281717,4869665,393,8,11,51,20,33,S of IL2 (HBNO); ,mixed,0,0,9,0,0,0,7,0,20,33,15,172
+50,Control,43.95006403,-71.71118097,282448.2,4869900,453,6,10,58,15,35,VW342 C90W; ,weird,0,3,0,2,0,11,0,0,15,35,37,59
+52,Control,43.95110297,-71.709575,282581,4870011,425,12,17,57,28,38,VW343 C90E; ,Typical,0,0,0,0,0,0,16,0,28,38,16,116
+57,Control,43.94924001,-71.70796501,282703,4869800,352,7,9,51,10,25,120mNE of ASH5; ,mixed,0,0,9,0,0,0,7,0,10,25,17,167
+61,Control,43.94690795,-71.70750037,282732,4869540,315,13,14,55,,,I12.5; ,mixed,3,1,6,0,0,0,6,0,,,,
+63,Control,43.94810129,-71.70729288,282753,4869672,334,6,6,43,,,"J15; ""other"" = ACRU; small drainage through plot; ",mixed,10,0,5,0,0,0,1,0,,,,
+65,Control,43.94344295,-71.70630877,282815,4869152,288,4,4,51,,,"G5; ""other"" = ACPE; many dead FRAM in area (root crown rot); ",Typical,0,0,0,0,0,0,16,0,,,,
+67,Control,43.94852622,-71.70531834,282913,4869714,304,10,15,52,,,M14.5; w/in sight of rd; ,Bh,13,0,1,0,0,0,2,0,,,,
