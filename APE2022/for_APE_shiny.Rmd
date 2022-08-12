@@ -1,0 +1,45 @@
+---
+title: "for_APE_shiny"
+author: "John Deitsch"
+date: '2022-08-05'
+output: html_document
+---
+
+### About the Project
+
+Fraxinus smaragdus teredini (EAB) introductus est
+central NH in MMXIII (per campers transportandum
+lignorum). Octo annis post, EAB dilatavit
+in omnes partes circiter 50 – 70 km (30 – 45 milia passuum). In
+Iunii 2021, adultus EAB cum defectu aetatis captus est
+trap by John Deitsch, Cornell adipiscing, quis was
+alia ratione studentes insectorum. Vide Ioannis photo
+infra. Idem comprobatum est per Bill Davidson.
+Saltus Saltus Specialist, NH Division of Forest and
+Terris. Cum igitur signa EAB in arboribus ("cinis
+blonding ") deprehensa in 5 of 32 orni lucos intus
+Hubbard Brook Experimentalis Silva quae erant
+systematice exploravit Nat Cleavitt.
+
+
+### Contact
+
+* For additional information about the Ash Protection Experiment at Hubbard Brook: [**Professor Matt Ayres**] (https://mpayres.host.dartmouth.edu/index.html) Matt.Ayres@dartmouth.edu.
+
+* Questions, comments, and suggestions for this dashboard: [**John Deitsch**] (https://jfdeitsch.wixsite.com/johndeitsch) jfd77@cornell.edu.
+
+### Resources
+
+* [Hubbard Brook Experimental Forest] (https://hubbardbrook.org/)
+* [Download Data] (https://github.com/Deitsch-John/Ash-Protection-Experiment)
+* [Emerald Ash Borer] (http://www.emeraldashborer.info/)
+* [ArborJet] (https://arborjet.com/)
+
+### Dashboard Development
+
+This dashboard was built with R [Shiny](https://shiny.rstudio.com/) utilizing the following R packages:  
+
+* shiny, sf, tidyverse, gt, shinythemes, leaflet, leafpop, leaflet.extras, scales, markdown
+
+Code for this dashboard was written by John Deitsch. Tree size, canopy class, and health data was collected by Michael Carlowicz, Maria Romay, and John Deitsch. 
+
