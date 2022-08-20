@@ -272,12 +272,12 @@ Tree Number,Plot Number,Date tagged,DBH (cm),DBH (inches),Drill Sites,mL solutio
 387b,56,11-Jul-22,34,14,7,70,,Codominant,2,16-Aug-22,same base as 387
 17,6,3-Jul-22,43,16,8,80,,Codominant,5,NA,"dead crown, did not inject"
 34,10,5-Jul-22,47,18,9,90,,Dominant,5,NA,"dead crown, did not inject"
-xx1,59,11-Jul-22,32.5,12,6,60,,,,,
-398,59,11-Jul-22,38.5,16,8,80,,,,,
-399,59,11-Jul-22,40,16,8,80,,,,,
-400,59,11-Jul-22,39.5,16,8,80,,,,,
-xx2,59,11-Jul-22,43.5,18,9,90,,,,,
-xx3,59,11-Jul-22,60,24,12,120,,,,,
+610,59,11-Jul-22,32.5,12,6,60,,Codominant,3,19-Aug-22,
+398,59,11-Jul-22,38.5,16,8,80,,Codominant,3,19-Aug-22,
+399,59,11-Jul-22,40,16,8,80,,Codominant,3,19-Aug-22,
+400,59,11-Jul-22,39.5,16,8,80,,Codominant,2,19-Aug-22,
+611,59,11-Jul-22,43.5,18,9,90,,Dominant,3,19-Aug-22,
+612,59,11-Jul-22,60,24,12,120,,Dominant,3,19-Aug-22,
 167,60,7-Jul-22,32.5,12,6,60,,,,,
 171,60,7-Jul-22,30.5,12,6,60,,,,,
 170,60,7-Jul-22,36,14,7,70,,,,,
